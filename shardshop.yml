@@ -1,0 +1,103 @@
+menu_title: '&bShard Marketi'
+open_command:
+  - shardshop
+size: 27
+
+items:
+
+  # GÜNLÜK ANAHTAR
+  gunluk:
+    material: TRIPWIRE_HOOK
+    slot: 10
+    display_name: '&aGünlük Anahtar'
+    lore:
+      - '&7Fiyat: &e150 Shard'
+      - ''
+      - '&aSatın almak için tıkla!'
+    click_commands:
+      - '[console] shard take %player_name% 150'
+      - '[console] crates giveKey gunluk %player_name% 1'
+
+
+  # BOSS ANAHTAR
+  boss:
+    material: TRIPWIRE_HOOK
+    slot: 11
+    display_name: '&cBoss Anahtar'
+    lore:
+      - '&7Fiyat: &e500 Shard'
+      - ''
+      - '&aSatın almak için tıkla!'
+    click_commands:
+      - '[console] shard take %player_name% 500'
+      - '[console] crates giveKey boss %player_name% 1'
+
+
+  # AMETİS ANAHTAR
+  ametis:
+    material: AMETHYST_SHARD
+    slot: 12
+    display_name: '&dAmetis Anahtar'
+    lore:
+      - '&7Fiyat: &e1000 Shard'
+      - ''
+      - '&aSatın almak için tıkla!'
+    click_commands:
+      - '[console] shard take %player_name% 1000'
+      - '[console] crates giveKey ametis %player_name% 1'
+
+
+  # İSKELET SPAWNER
+  skeleton:
+    material: SPAWNER
+    slot: 14
+    display_name: '&fİskelet Spawner'
+    lore:
+      - '&7Fiyat: &e350 Shard'
+      - ''
+      - '&aSatın almak için tıkla!'
+    click_commands:
+      - '[console] shard take %player_name% 350'
+      - '[console] ss give spawner %player_name% skeleton 1'
+
+
+  # İNEK SPAWNER
+  cow:
+    material: SPAWNER
+    slot: 15
+    display_name: '&aİnek Spawner'
+    lore:
+      - '&7Fiyat: &e250 Shard'
+      - ''
+      - '&aSatın almak için tıkla!'
+    click_commands:
+      - '[console] shard take %player_name% 250'
+      - '[console] ss give spawner %player_name% cow 1'
+
+
+  # DOMUZ SPAWNER
+  pig:
+    material: SPAWNER
+    slot: 16
+    display_name: '&dDomuz Spawner'
+    lore:
+      - '&7Fiyat: &e200 Shard'
+      - ''
+      - '&aSatın almak için tıkla!'
+    click_commands:
+      - '[console] shard take %player_name% 200'
+      - '[console] ss give spawner %player_name% PIG 1'
+
+
+  # IRON GOLEM SPAWNER
+  iron_golem:
+    material: SPAWNER
+    slot: 17
+    display_name: '&7Demir Golem Spawner'
+    lore:
+      - '&7Fiyat: &e300 Shard'
+      - ''
+      - '&aSatın almak için tıkla!'
+    click_commands:
+      - '[console] shard take %player_name% 300'
+      - '[console] ss give spawner %player_name% IRON_GOLEM 1'
